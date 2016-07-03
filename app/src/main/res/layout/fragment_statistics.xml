@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hackerkernel.smartalarm.fragments.StatisticsFragment">
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/graph_view"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="We need at least 3 sleep to display Statistics"
+        android:id="@+id/placeholder"
+        android:layout_margin="20dp"/>
+
+</FrameLayout>
